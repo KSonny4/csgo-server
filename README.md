@@ -47,11 +47,10 @@ Dont forget to use `rcon` before every of these commands.
 
 
 
-| command | syntax |
-|---|---|
-| restart game |  `rcon mp_restartgame [Seconds]`
-`rcon mp_restartgame 1`|
-| change map` |  `rcon changelevel [Map_name]` `rcon changelevel de_dust2` |
+| command | syntax | example |
+|---|---|---|
+| restart game |  `rcon mp_restartgame [Seconds]` | `rcon mp_restartgame 1`|
+| change map` | `rcon changelevel [Map_name]` | `rcon changelevel de_dust2` |
 
 
 
