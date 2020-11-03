@@ -46,12 +46,12 @@ Dont forget to use `rcon` before every of these commands.
 [commands links 2](https://steamcommunity.com/sharedfiles/filedetails/?id=1104142230) 
 
 
--restart game
-`rcon mp_restartgame [Seconds]`
-`rcon mp_restartgame 1`
--To change map
-`rcon changelevel [Map_name]`
-`rcon changelevel de_dust2``
+
+| command | syntax |
+|---|---|
+| restart game |  `rcon mp_restartgame [Seconds]`
+`rcon mp_restartgame 1`|
+| change map` |  `rcon changelevel [Map_name]` `rcon changelevel de_dust2` |
 
 
 
