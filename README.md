@@ -30,7 +30,32 @@ Don't forget to export port 27015.
 
 ## Controlling the server
 
-To control the server you need `CSGO_RCON_PW`
+To control the server using RCON (Remote Console) you need `CSGO_RCON_PW` and console. To open the console use [enable console](https://www.metabomb.net/csgo/gameplay-guides/csgo-how-to-open-the-command-console-2) and use `~` to open it.
+
+First you need to login to admins account. You do this in console be using `rcon_password password123` to check if the login was successful use `rcon status` You should see player info, if the login was not successful, you will see Bad password.
+
+
+### predefined configs
+
+This image contains few predefined configs, one of them is for deathmatch called `dm_kubelka.cfg` and the other is for normal games called `live.cfg`
+to execute the config use `rcon exec dm_kubelka.cfg`
+
+### Other commands
+Dont forget to use `rcon` before every of these commands.
+
+[commands links 1](https://totalcsgo.com/commands) 
+[commands links 2](https://steamcommunity.com/sharedfiles/filedetails/?id=1104142230) 
+
+
+restart game
+`rcon mp_restartgame [Seconds]`
+`rcon mp_restartgame 1`
+To change map
+`rcon changelevel [Map_name]`
+`rcon changelevel de_dust2``
+
+
+
 
 
 `
