@@ -24,7 +24,7 @@ docker run -d --net=host -v=csgo:/home/csgo/server  -e CSGO_RCON_PW=heslo_admina
 
 ```
 
-Don't forget to export port 27015. 
+Don't forget to export port 27015 on your server!!!! 
 
 
 ## Controlling the server
