@@ -1,6 +1,8 @@
 # csgo-server
 This is my csgo docker server using timche csgo docker image. I would use the timche image, but I needed to adjust the deathmatch config and this was the most plesant way. Also this docker image has vim inside to be able to configure the parameters ASAP.
 
+The `dm_kubelka.cfg` deathmatch config is better than `dm.cfg`, it allows to buy weapons anywhere and anytime but it still a bit buggy. For better performance use one of the CS:GO mods (Metamod:Source, SourceMod) from community.
+
 first build the image using `docker build -t csgo` .
 
 then run the server and fill the variables:
